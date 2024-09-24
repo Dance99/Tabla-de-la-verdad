@@ -1,4 +1,5 @@
 body {
+    /* font-family especifica una lista priorizada de uno o más nombres de familia */
     font-family: Arial, sans-serif;
     background-color: blueviolet;
     text-align: center;
@@ -6,10 +7,11 @@ body {
 
 .title {
     margin-top: 20px;
-    color: #333;
+    color: #000000;
 }
 
 .container {
+    /* background-color establece el color de fondo de un elemento */
     background-color: #fff;
     margin: 20px auto;
     padding: 15px;
@@ -25,9 +27,9 @@ body {
 
 .text {
     font-weight: bold;
-    color: #333;
+    color: #000000;
 }
-
+/* <input> se utiliza para crear controles interactivos para formularios */
 .input, .result {
     display: inline-block;
     margin: 0 10px;
